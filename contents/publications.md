@@ -2,4 +2,4 @@
 
 2. Transcendental foliations whose slope is less than 2 (with Jun Lu, Xin Lv and Shengli Tan), Preprint.
 
-3. On adjoint divisors for foliated surfaces  (with Jun Lu and Xiaohang Wu), https://arxiv.org/abs/2501.00470
+3. On adjoint divisors for foliated surfaces  (with Jun Lu and Xiaohang Wu), arXiv:2501.00470v4,2025. [[Paper]](https://arxiv.org/abs/2501.00470)
