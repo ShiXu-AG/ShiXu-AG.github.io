@@ -1,6 +1,6 @@
 1. _On the singular locus of foliations over $\mathbb{P}^2$_,\
-   __Bull.Korean Math. Soc.__,
-   61(2024), no.4,1067-1086.[[Paper]](https://bkms.kms.or.kr/journal/view.html?doi=10.4134/BKMS.b230611)
+   __Bulletin of the Korean Mathematical Society__,
+   Vol. __61__, No. 4, (2024),1067-1086.[[Paper]](https://bkms.kms.or.kr/journal/view.html?doi=10.4134/BKMS.b230611)
 
 3. _Transcendental foliations whose slope is less than 2_ (with [Jun Lu](https://math.ecnu.edu.cn/~jlu/), Xin Lv and Shengli Tan), \
    Preprint.
