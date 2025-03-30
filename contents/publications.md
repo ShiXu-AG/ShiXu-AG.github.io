@@ -5,5 +5,5 @@
 3. _Transcendental foliations whose slope is less than 2_, (with [Jun Lu](https://math.ecnu.edu.cn/~jlu/), Xin Lv and Shengli Tan), \
    Preprint.
 
-4. _On adjoint divisors for foliated surfaces_,  (with [Jun Lu](https://math.ecnu.edu.cn/~jlu/) and Xiaohang Wu), \
+4. _On adjoint divisors for foliated surfaces_,  (with [Jun Lu](https://math.ecnu.edu.cn/~jlu/) and Xiaohang Wu), 
    [arXiv:2501.00470v4,2025.](https://arxiv.org/abs/2501.00470)
