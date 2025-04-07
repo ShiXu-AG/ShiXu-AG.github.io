@@ -44,7 +44,6 @@ Feel free to reach out to me at 572463515@qq.com.
 
 - On adjoint divisors for foliated surfaces, <br>Jun Lu, Xiaohang Wu, **Shi Xu**, 2025. [[ArXiv]](https://arxiv.org/pdf/2501.00470)
 
-</div>
 
 
 # 📖 Educations
