@@ -17,14 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# About me
+
 
 I am a researcher in mathematics, specializing in algebraic geometry, with a particular focus on algebraic surfaces and foliations.
 [[Here is my CV.]](file/CV_of_Shi_Xu_徐识_.pdf) 
 
 Recently, I am a postdoctoral researcher at the Yau Mathematical Sciences Center (YMSC) at Tsinghua University in Beijing, China.
 
-# Contact 
 
 - Email: 572463515@qq.com.
 
