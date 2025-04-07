@@ -17,15 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+## About me
+
 I am a researcher in mathematics, specializing in algebraic geometry, with a particular focus on algebraic surfaces and foliations.
+[[Here]](file/CV_of_Shi_Xu_徐识_.pdf) is my CV.
 
 Since March 2025, I have been working as a postdoctoral researcher at the Yau Mathematical Sciences Center (YMSC) at Tsinghua University in Beijing, China.
 
 I completed my PhD at East China Normal University in 2024, under the supervision of Professor [Shengli Tan](https://math.ecnu.edu.cn/~sltan/). 
 My dissertation is titled “Double Coverings of Foliated Surfaces and the Slopes".
 
-If you are interested in any aspect of me, I am always open to discussions and collaborations. 
-Feel free to reach out to me at 572463515@qq.com.
+## Contact 
+
+- Email: 572463515@qq.com.
 
 # News
 
@@ -47,8 +51,12 @@ Feel free to reach out to me at 572463515@qq.com.
 
 
 #  Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+- *2019.09 - 2024.06*, East China Normal University (ECNU)}, Shanghai, China
+
+  PhD, in Pure Mathematics, supervised by Professor [Shengli Tan](https://math.ecnu.edu.cn/~sltan/). 
+My dissertation is titled “Double Coverings of Foliated Surfaces and the Slopes".
+
 
 #  Invited Talks
 - *2024.11.26*, The Academy of Mathematics and Systems Science (AMSS) of the Chinese Academy of Sciences (CAS), “The Double Covering of a Foliated Surface and Its Slope”.
