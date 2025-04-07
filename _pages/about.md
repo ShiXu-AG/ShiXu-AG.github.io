@@ -40,7 +40,7 @@ Feel free to reach out to me at 572463515@qq.com.
 
 ## Preprints
 
-- Transcendental foliations whose slope is less than 2,   <br>Jun Lu, Xin Lv, Shengli Tan, **Shi Xu**, 2024. [[Preprint]](file/Transcendental foliations whose slope is less than 2 .pdf)
+- Transcendental foliations whose slope is less than 2,   <br>Jun Lu, Xin Lv, Shengli Tan, **Shi Xu**, 2024. [[Preprint]](file/S.Xu24_On the singular locus of foliations over P2.pdf)
 
 - On adjoint divisors for foliated surfaces, <br>Jun Lu, Xiaohang Wu, **Shi Xu**, 2025. [[ArXiv]](https://arxiv.org/pdf/2501.00470)
 
