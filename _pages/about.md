@@ -27,18 +27,18 @@ My dissertation is titled “Double Coverings of Foliated Surfaces and the Slope
 If you are interested in any aspect of me, I am always open to discussions and collaborations. 
 Feel free to reach out to me at 572463515@qq.com.
 
-# 🔥 News
+# News
 
 - **March 2025**：I become a postdoctoral researcher at the Yau Mathematical Sciences Center (YMSC) at Tsinghua University in Beijing, China.
 <br>
 
-# 📝 Publications 
+#  Publications 
 
 -  On the singular locus of foliations over $\mathbb{P}^2$, 
   <br>**Shi Xu**, [Bull. Korean Math. Soc. 61 (2024), no. 4, 1067–1086](https://bkms.kms.or.kr/journal/view.html?doi=10.4134/BKMS.b230611). [[Paper]](file/S.Xu24_On the singular locus of foliations over P2.pdf)
 
 
-## Preprints
+# Preprints
 
 - Transcendental foliations whose slope is less than 2,   <br>Jun Lu, Xin Lv, Shengli Tan, **Shi Xu**, 2024. [[Preprint]](file/S.Xu24_On the singular locus of foliations over P2.pdf)
 
@@ -46,10 +46,10 @@ Feel free to reach out to me at 572463515@qq.com.
 
 
 
-# 📖 Educations
+#  Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
+#  Invited Talks
 - *2024.11.26*, The Academy of Mathematics and Systems Science (AMSS) of the Chinese Academy of Sciences (CAS), “The Double Covering of a Foliated Surface and Its Slope”.
 
