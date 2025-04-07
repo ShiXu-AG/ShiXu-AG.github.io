@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Shi Xu"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
+description              : " "
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Shi Xu (徐识)"
   avatar           : "file/xsh.jpg"
-  bio              : "Sleep with problems"
+  bio              : "Sleep with problems."
   location         : "Beijing, China"
   employer         :
   pubmed           : 
