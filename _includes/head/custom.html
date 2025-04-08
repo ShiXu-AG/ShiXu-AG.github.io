@@ -33,81 +33,91 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-<!-- 增强版导航栏锚点处理 -->
+<!-- 终极锚点滚动解决方案 -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // 修复锚点跳转的核心函数
-  const handleAnchorNavigation = function(e) {
-    const href = this.getAttribute('href');
-    
-    // 只处理当前页面的锚点链接
-    if (href && (href === '#' || href.startsWith('#') || 
-        (href.startsWith('/#') && !href.startsWith('//')))) {
-      
-      e.preventDefault();
-      const targetId = href.split('#')[1] || '';
-      const targetElem = targetId ? document.getElementById(targetId) : null;
-      
-      // 计算固定导航栏高度（如有）
-      const headerHeight = document.querySelector('.masthead')?.offsetHeight || 0;
-      
-      if (targetElem) {
-        // 分阶段滚动解决遮挡问题
-        window.scrollTo({
-          top: 0,
-          behavior: 'instant'
-        });
+(function() {
+  // 等待所有资源加载完成
+  function domReady(fn) {
+    document.readyState === 'loading' ? 
+      document.addEventListener('DOMContentLoaded', fn) : fn();
+  }
+
+  domReady(function() {
+    // 核心滚动函数
+    function scrollToTarget(hash, immediate) {
+      const target = document.getElementById(hash.replace('#', ''));
+      if (!target) return false;
+
+      // 计算固定导航栏高度 + 15px缓冲
+      const header = document.querySelector('.masthead');
+      const offset = (header ? header.offsetHeight : 0) + 15;
+
+      // 分阶段滚动（解决所有浏览器兼容性问题）
+      if (immediate) {
+        window.scrollTo(0, target.offsetTop - offset);
+      } else {
+        // 先瞬间滚动到顶部
+        window.scrollTo({ top: 0, behavior: 'instant' });
         
+        // 延迟执行确保布局稳定
         requestAnimationFrame(() => {
-          const targetPosition = targetElem.getBoundingClientRect().top + window.pageYOffset;
           window.scrollTo({
-            top: targetPosition - headerHeight - 20, // 20px额外间距
+            top: target.offsetTop - offset,
             behavior: 'smooth'
           });
-          
-          // 更新URL但不触发页面跳转
-          if (history.replaceState) {
-            history.replaceState(null, null, '#' + targetId);
-          } else {
-            location.hash = '#' + targetId;
-          }
         });
-      } else {
-        // 锚点不存在时回退默认行为
-        location.href = href;
+      }
+      return true;
+    }
+
+    // 处理锚点点击
+    function handleAnchorClick(e) {
+      const href = this.getAttribute('href');
+      if (!href || !href.includes('#')) return;
+
+      // 排除外部链接
+      const isExternal = href.startsWith('http') && 
+                       !href.includes(window.location.host);
+      if (isExternal) return;
+
+      // 处理当前页锚点
+      const isCurrentPageAnchor = href.startsWith('#') || 
+                                href.startsWith(window.location.pathname + '#');
+      if (isCurrentPageAnchor) {
+        e.preventDefault();
+        if (!scrollToTarget(href)) {
+          console.warn('Anchor target not found:', href);
+          // 回退到默认行为
+          window.location.href = href;
+        } else {
+          // 更新URL不刷新
+          history.replaceState(null, null, href);
+        }
       }
     }
-  };
 
-  // 初始绑定事件
-  const bindAnchorEvents = function() {
-    document.querySelectorAll('.masthead__menu a, .greedy-nav a').forEach(link => {
-      link.removeEventListener('click', handleAnchorNavigation);
-      link.addEventListener('click', handleAnchorNavigation);
-    });
-  };
+    // 初始化绑定
+    function initAnchorNavigation() {
+      // 移除旧监听器避免重复绑定
+      document.querySelectorAll('a[href*="#"]').forEach(link => {
+        link.removeEventListener('click', handleAnchorClick);
+        link.addEventListener('click', handleAnchorClick);
+      });
 
-  // 立即执行一次绑定
-  bindAnchorEvents();
-
-  // 监听动态菜单变化（针对响应式导航）
-  const navObserver = new MutationObserver(bindAnchorEvents);
-  navObserver.observe(document.querySelector('.greedy-nav'), {
-    childList: true,
-    subtree: true
-  });
-
-  // 页面加载后自动处理hash锚点
-  if (location.hash) {
-    const targetId = location.hash.replace('#', '');
-    const targetElem = document.getElementById(targetId);
-    if (targetElem) {
-      setTimeout(() => { // 等待所有资源加载完成
-        targetElem.scrollIntoView();
-      }, 300);
+      // 处理初始页面hash
+      if (window.location.hash) {
+        setTimeout(() => scrollToTarget(window.location.hash, true), 100);
+      }
     }
-  }
-});
-</script>
 
-<!-- 其他可能的自定义head内容 -->
+    // 首次执行
+    initAnchorNavigation();
+
+    // 监听动态内容变化（针对响应式菜单）
+    new MutationObserver(initAnchorNavigation).observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  });
+})();
+</script>
