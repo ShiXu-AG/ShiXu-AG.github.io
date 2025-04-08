@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-### About Me
+## About Me
 
 I am a Postdoctoral Researcher at the [Yau Mathematical Sciences Center (YMSC)](https://ymsc.tsinghua.edu.cn), Tsinghua University, Beijing, China. My research focuses on **algebraic geometry**, particularly algebraic surfaces and foliations.  
 
@@ -27,20 +27,20 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 
 ---
 
-### News  
+## News  
 - **March 2025**: Joined YMSC, Tsinghua University as a Postdoctoral Researcher.  
 
 ---
 
-### Publications  
+## Publications  
 
-#### Journal Articles  
+### Journal Articles  
 1. **On the singular locus of foliations over $\mathbb{P}^2$**  
    **Shi Xu**  
    *Bulletin of the Korean Mathematical Society* **61** (2024), no. 4, 1067–1086.  
    [[DOI]](https://doi.org/10.4134/BKMS.b230611) | [[PDF]](file/S.Xu24_On the singular locus of foliations over P2.pdf)  
 
-#### Preprints  
+### Preprints  
 1. **Transcendental foliations whose slope is less than 2**  
    Jun Lu, Xin Lv, Shengli Tan, **Shi Xu** (2024)  
    [[PDF]](file/Transcendental foliations whose slope is less than 2 .pdf)  
@@ -51,5 +51,5 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 
 ---
 
-### Contact  
+## Contact  
 - **Email**: xushiymsc@mail.tsinghua.edu.cn  
