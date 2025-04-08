@@ -4,10 +4,10 @@ main:
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   #- title: "Honors and Awards"
     #url: "/#-honors-and-awards"
@@ -19,7 +19,7 @@ main:
     #url: "/#-invited-talks"
 
   - title: "Contact"  # ✅ 修正：对齐其他项
-    url: "/#-contact"
+    url: "/#contact"
 
   #- title: "Internships"
     #url: "/#-internships"
