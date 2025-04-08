@@ -24,7 +24,7 @@ I obtained my Ph.D. at East China Normal University (ECNU), supervised by Profes
 
 [[CV Download]](file/CV_of_Shi_Xu_徐识_.pdf).
 
---
+---
 
 # News
 
@@ -32,7 +32,7 @@ I obtained my Ph.D. at East China Normal University (ECNU), supervised by Profes
 <br>
 
 
---
+---
 # Publications
 
 ### Journal Articles
@@ -50,7 +50,7 @@ I obtained my Ph.D. at East China Normal University (ECNU), supervised by Profes
    Jun Lu, Xiaohang Wu, **Shi Xu** (2025)  
    [[arXiv]](https://arxiv.org/abs/2501.00470) | [[PDF]](https://arxiv.org/pdf/2501.00470)
    
---
+---
 
 # Contact
 
