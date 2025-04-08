@@ -161,11 +161,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# 强制所有链接在当前页打开（锚点链接和内部链接）
-external_links:
-  target: "_self"  
-  exclude: 
-    - "mailto:"     # 排除邮箱链接
-    - "http"        # 可选：保留真正的外部链接在新标签页打开
-    - "https"
