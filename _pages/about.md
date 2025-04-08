@@ -26,12 +26,12 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 [[Curriculum Vitae (PDF)]](file/CV_of_Shi_Xu_徐识_.pdf)  
 
 ---
-
+<span class='anchor' id='news'></span> 
 ## News  
 - **March 2025**: Joined YMSC, Tsinghua University as a Postdoctoral Researcher.  
 
 ---
-
+<span class='anchor' id='publications'></span> 
 ## Publications  
 
 ### Journal Articles  
@@ -50,6 +50,6 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
    [[arXiv]](https://arxiv.org/abs/2501.00470) | [[PDF]](https://arxiv.org/pdf/2501.00470)  
 
 ---
-<span class='anchor' id='contact'></span>  <!-- 新增这行 -->
+<span class='anchor' id='contact'></span>  
 ## Contact  
 - **Email**: xushiymsc@mail.tsinghua.edu.cn  
