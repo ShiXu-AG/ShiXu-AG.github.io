@@ -44,7 +44,7 @@ I obtained my Ph.D. at East China Normal University (ECNU), supervised by Profes
 ### Preprints
 1. **Transcendental foliations whose slope is less than 2**  
    Jun Lu, Xin Lv, Shengli Tan, **Shi Xu** (2024)  
-   [[Preprint]](file/Transcendental foliations whose slope is less than 2.pdf)
+   [[Preprint]](file/Transcendental foliations whose slope is less than 2 .pdf)
 
 2. **On adjoint divisors for foliated surfaces**  
    Jun Lu, Xiaohang Wu, **Shi Xu** (2025)  
