@@ -1,42 +1,113 @@
+<!-- Favicons and meta tags -->
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="manifest" href="images/site.webmanifest">
-
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
+
+<!-- Academicons CSS -->
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<!-- MathJax Configuration -->
+<script type="text/x-mathjax-config"> 
+  MathJax.Hub.Config({ 
+    TeX: { 
+      equationNumbers: { autoNumber: "all" },
+      extensions: ["color.js"]
+    } 
+  }); 
+</script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
+      processEscapes: true,
+      ignoreClass: ".*|",
+      processClass: "mathjax|"
+    },
+    CommonHTML: { scale: 90 }
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- 增强版导航栏锚点处理 -->
 <script>
-// 强制导航栏锚点链接在当前页打开
 document.addEventListener('DOMContentLoaded', function() {
-  const navLinks = document.querySelectorAll('.masthead__menu a');
-  navLinks.forEach(link => {
-    const href = link.getAttribute('href');
-    if (href && (href.startsWith('#') || href.startsWith('/#'))) {
-      link.setAttribute('target', '_self');
-      // 添加平滑滚动效果
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = href.split('#')[1];
-        document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth' });
-        history.pushState(null, null, '#' + targetId);
-      });
+  // 修复锚点跳转的核心函数
+  const handleAnchorNavigation = function(e) {
+    const href = this.getAttribute('href');
+    
+    // 只处理当前页面的锚点链接
+    if (href && (href === '#' || href.startsWith('#') || 
+        (href.startsWith('/#') && !href.startsWith('//')))) {
+      
+      e.preventDefault();
+      const targetId = href.split('#')[1] || '';
+      const targetElem = targetId ? document.getElementById(targetId) : null;
+      
+      // 计算固定导航栏高度（如有）
+      const headerHeight = document.querySelector('.masthead')?.offsetHeight || 0;
+      
+      if (targetElem) {
+        // 分阶段滚动解决遮挡问题
+        window.scrollTo({
+          top: 0,
+          behavior: 'instant'
+        });
+        
+        requestAnimationFrame(() => {
+          const targetPosition = targetElem.getBoundingClientRect().top + window.pageYOffset;
+          window.scrollTo({
+            top: targetPosition - headerHeight - 20, // 20px额外间距
+            behavior: 'smooth'
+          });
+          
+          // 更新URL但不触发页面跳转
+          if (history.replaceState) {
+            history.replaceState(null, null, '#' + targetId);
+          } else {
+            location.hash = '#' + targetId;
+          }
+        });
+      } else {
+        // 锚点不存在时回退默认行为
+        location.href = href;
+      }
     }
+  };
+
+  // 初始绑定事件
+  const bindAnchorEvents = function() {
+    document.querySelectorAll('.masthead__menu a, .greedy-nav a').forEach(link => {
+      link.removeEventListener('click', handleAnchorNavigation);
+      link.addEventListener('click', handleAnchorNavigation);
+    });
+  };
+
+  // 立即执行一次绑定
+  bindAnchorEvents();
+
+  // 监听动态菜单变化（针对响应式导航）
+  const navObserver = new MutationObserver(bindAnchorEvents);
+  navObserver.observe(document.querySelector('.greedy-nav'), {
+    childList: true,
+    subtree: true
   });
+
+  // 页面加载后自动处理hash锚点
+  if (location.hash) {
+    const targetId = location.hash.replace('#', '');
+    const targetElem = document.getElementById(targetId);
+    if (targetElem) {
+      setTimeout(() => { // 等待所有资源加载完成
+        targetElem.scrollIntoView();
+      }, 300);
+    }
+  }
 });
 </script>
 
-<!-- end custom head snippets -->
+<!-- 其他可能的自定义head内容 -->
