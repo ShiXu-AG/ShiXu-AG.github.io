@@ -36,7 +36,7 @@ I obtained my Ph.D. at East China Normal University (ECNU), supervised by Profes
 # Publications
 
 ### Journal Articles
-1. **On the singular locus of foliations over $\mathbb{P}^2$**  
+1. **On the singular locus of foliations over $\mathbb{P}^2$** 
    **Shi Xu**  
    *Bulletin of the Korean Mathematical Society* 61 (2024), no. 4, 1067–1086.  
    [[DOI]](https://doi.org/10.4134/BKMS.b230611) | [[PDF]](file/S.Xu24_On the singular locus of foliations over P2.pdf)
@@ -44,7 +44,7 @@ I obtained my Ph.D. at East China Normal University (ECNU), supervised by Profes
 ### Preprints
 1. **Transcendental foliations whose slope is less than 2**  
    Jun Lu, Xin Lv, Shengli Tan, **Shi Xu** (2024)  
-   [[Preprint]](file/Transcendental foliations whose slope is less than 2 .pdf)
+   [[PDF]](file/Transcendental foliations whose slope is less than 2 .pdf)
 
 2. **On adjoint divisors for foliated surfaces**  
    Jun Lu, Xiaohang Wu, **Shi Xu** (2025)  
