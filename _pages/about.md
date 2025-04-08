@@ -27,11 +27,13 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 
 ---
 <span class='anchor' id='news'></span> 
+
 ## News  
 - **March 2025**: Joined YMSC, Tsinghua University as a Postdoctoral Researcher.  
 
 ---
 <span class='anchor' id='publications'></span> 
+
 ## Publications  
 
 ### Journal Articles  
@@ -50,6 +52,7 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
    [[arXiv]](https://arxiv.org/abs/2501.00470) | [[PDF]](https://arxiv.org/pdf/2501.00470)  
 
 ---
-<span class='anchor' id='contact'></span>  
+<span class='anchor' id='contact'></span> 
+
 ## Contact  
 - **Email**: xushiymsc@mail.tsinghua.edu.cn  
