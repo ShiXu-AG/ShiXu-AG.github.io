@@ -18,7 +18,7 @@ main:
   #- title: "Invited Talks"
     #url: "/#-invited-talks"
 
-   - title: "Contact"
+  - title: "Contact"  # ✅ 修正：对齐其他项
     url: "/#-contact"
 
   #- title: "Internships"
