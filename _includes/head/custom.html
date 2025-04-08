@@ -19,5 +19,24 @@
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+<script>
+// 强制导航栏锚点链接在当前页打开
+document.addEventListener('DOMContentLoaded', function() {
+  const navLinks = document.querySelectorAll('.masthead__menu a');
+  navLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    if (href && (href.startsWith('#') || href.startsWith('/#'))) {
+      link.setAttribute('target', '_self');
+      // 添加平滑滚动效果
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = href.split('#')[1];
+        document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth' });
+        history.pushState(null, null, '#' + targetId);
+      });
+    }
+  });
+});
+</script>
 
 <!-- end custom head snippets -->
