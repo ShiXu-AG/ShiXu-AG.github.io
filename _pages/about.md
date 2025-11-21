@@ -47,9 +47,13 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
    Jun Lu, Xin Lv, Shengli Tan, **Shi Xu** (2024)  
    [[PDF]](file/Transcendental foliations whose slope is less than 2 .pdf)  
 
-2. **On adjoint divisors for foliated surfaces**  
+2. **Canonical Models of Adjoint Foliated Structures on Surfaces**  
    Jun Lu, Xiaohang Wu, **Shi Xu** (2025)  
-   [[arXiv]](https://arxiv.org/abs/2501.00470) | [[PDF]](https://arxiv.org/pdf/2501.00470)  
+   [[arXiv]](https://arxiv.org/abs/2501.00470v6) | [[PDF]](https://arxiv.org/pdf/2501.00470v6)
+
+3. **Noether-Type Inequalities for Big Divisors on Algebraic Surfaces**
+   **Shi Xu** (2025)
+   [[arXiv]](https://arxiv.org/abs/2510.08089) | [[PDF]](https://arxiv.org/pdf/2510.08089)
 
 ---
 <span class='anchor' id='contact'></span> 
