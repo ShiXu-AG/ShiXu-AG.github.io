@@ -38,21 +38,19 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 
 ### Journal Articles  
 1. **On the singular locus of foliations over $\mathbb{P}^2$**  
-   **Shi Xu**  
    *Bulletin of the Korean Mathematical Society* **61** (2024), no. 4, 1067–1086.  
    [[DOI]](https://doi.org/10.4134/BKMS.b230611) | [[PDF]](file/S.Xu24_On the singular locus of foliations over P2.pdf)  
 
 ### Preprints  
-1. **Transcendental foliations whose slope is less than 2**  
-   Jun Lu, Xin Lv, Shengli Tan, **Shi Xu** (2024)  
+1. **Transcendental foliations whose slope is less than 2**  (2024)
+   (with Jun Lu, Xin Lv, Shengli Tan)   
    [[PDF]](file/Transcendental foliations whose slope is less than 2 .pdf)  
 
-2. **Canonical Models of Adjoint Foliated Structures on Surfaces**  
-   Jun Lu, Xiaohang Wu, **Shi Xu** (2025)  
+2. **Canonical Models of Adjoint Foliated Structures on Surfaces** (2025) 
+   (with Jun Lu, Xiaohang Wu)   
    [[arXiv]](https://arxiv.org/abs/2501.00470v6) | [[PDF]](https://arxiv.org/pdf/2501.00470v6)
 
-3. **Noether-Type Inequalities for Big Divisors on Algebraic Surfaces**
-   **Shi Xu** (2025)
+3. **Noether-Type Inequalities for Big Divisors on Algebraic Surfaces** (2025)
    [[arXiv]](https://arxiv.org/abs/2510.08089) | [[PDF]](https://arxiv.org/pdf/2510.08089)
 
 ---
