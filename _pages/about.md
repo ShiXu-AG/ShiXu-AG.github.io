@@ -53,6 +53,9 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 3. **Noether-Type Inequalities for Big Divisors on Algebraic Surfaces** (2025)
    [[arXiv]](https://arxiv.org/abs/2510.08089) | [[PDF]](https://arxiv.org/pdf/2510.08089)
 
+4. **Adjoint log canonical foliated singularities on surfaces** (2025)
+   [[arXiv]](https://arxiv.org/abs/2512.20744) | [[PDF]](https://arxiv.org/pdf/2512.20744)
+
 ---
 <span class='anchor' id='contact'></span> 
 
