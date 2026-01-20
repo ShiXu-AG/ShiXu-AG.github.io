@@ -42,7 +42,7 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
    [[DOI]](https://doi.org/10.4134/BKMS.b230611) | [[PDF]](file/S.Xu24_On the singular locus of foliations over P2.pdf)  
 
 ### Preprints  
-1. **Transcendental foliations whose slope is less than 2**  (2024)
+1. **Transcendental foliations whose slope is less than two**  (2024)
    (with Jun Lu, Xin Lv, Shengli Tan)   
    [[PDF]](file/Transcendental foliations whose slope is less than Two.pdf)  
 
@@ -53,7 +53,7 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 3. **Noether-Type Inequalities for Big Divisors on Algebraic Surfaces** (2025)
    [[arXiv]](https://arxiv.org/abs/2510.08089) | [[PDF]](https://arxiv.org/pdf/2510.08089)
 
-4. **Adjoint log canonical foliated singularities on surfaces** (2025)
+4. **Adjoint log canonical foliated singularities on surfaces** (2026)
    [[arXiv]](https://arxiv.org/abs/2512.20744) | [[PDF]](https://arxiv.org/pdf/2512.20744)
 
 ---
