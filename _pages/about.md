@@ -44,7 +44,7 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 ### Preprints  
 1. **Transcendental foliations whose slope is less than 2**  (2024)
    (with Jun Lu, Xin Lv, Shengli Tan)   
-   [[PDF]](file/Transcendental foliations whose slope is less than 2 .pdf)  
+   [[PDF]](file/Transcendental foliations whose slope is less than Two.pdf)  
 
 2. **Canonical Models of Adjoint Foliated Structures on Surfaces** (2025) 
    (with Jun Lu, Xiaohang Wu)   
