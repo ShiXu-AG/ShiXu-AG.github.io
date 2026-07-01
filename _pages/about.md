@@ -33,29 +33,33 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 
 ---
 <span class='anchor' id='publications'></span> 
+## Publications
 
-## Publications  
+### Journal Articles
 
-### Journal Articles  
-1. **On the singular locus of foliations over $\mathbb{P}^2$**  
+1. **Canonical models of adjoint foliated structures on surfaces**  
+   with Jun Lu and Xiaohang Wu  
+   *Journal of the London Mathematical Society* (2) **114** (2026), e70622.  
+   [[DOI]](https://doi.org/10.1112/jlms.70622) | [[arXiv]](https://arxiv.org/abs/2501.00470) | [[PDF]](https://arxiv.org/pdf/2501.00470)
+
+2. **On the singular locus of foliations over $\mathbb{P}^2$**  
    *Bulletin of the Korean Mathematical Society* **61** (2024), no. 4, 1067–1086.  
-   [[DOI]](https://doi.org/10.4134/BKMS.b230611) | [[PDF]](file/S.Xu24_On the singular locus of foliations over P2.pdf)  
+   [[DOI]](https://doi.org/10.4134/BKMS.b230611) | [[PDF]](https://pdf.medrang.co.kr/BKMS/2024/061/BKMS-61-4-1067-1086.html)
 
-### Preprints  
-1. **Transcendental foliations whose slope is less than two**  (2024)
-   (with Jun Lu, Xin Lv, Shengli Tan)   
-   [[PDF]](file/Transcendental Foliated Surfaces with Slope Less than Two.pdf)  
+### Preprints and Manuscripts
 
-2. **Canonical Models of Adjoint Foliated Structures on Surfaces** (2025) 
-   (with Jun Lu, Xiaohang Wu)   
-   [[arXiv]](https://arxiv.org/abs/2501.00470v6) | [[PDF]](https://arxiv.org/pdf/2501.00470v6)
-
-3. **Noether-Type Inequalities for Big Divisors on Algebraic Surfaces** (2025)
-   [[arXiv]](https://arxiv.org/abs/2510.08089) | [[PDF]](https://arxiv.org/pdf/2510.08089)
-
-4. **Adjoint log canonical foliated singularities on surfaces** (2026)
+1. **Numerical Reduction and Sharp Thresholds for Adjoint Singularities of Foliated Surfaces**  
+   Preprint, 2025.  
    [[arXiv]](https://arxiv.org/abs/2512.20744) | [[PDF]](https://arxiv.org/pdf/2512.20744)
 
+2. **Noether-type inequalities for big divisors via control of the negative part**  
+   Preprint, 2025.  
+   [[arXiv]](https://arxiv.org/abs/2510.08089) | [[PDF]](https://arxiv.org/pdf/2510.08089)
+
+3. **Transcendental foliations whose slope is less than two**  
+   with Jun Lu, Xin Lv, and Shengli Tan  
+   Preprint.  
+   
 ---
 <span class='anchor' id='contact'></span> 
 
