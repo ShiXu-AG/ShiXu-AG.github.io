@@ -23,7 +23,7 @@ I am a Postdoctoral Researcher at the [Yau Mathematical Sciences Center (YMSC)](
 
 I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu.edu.cn) under the supervision of Professor [Shengli Tan](https://math.ecnu.edu.cn/~sltan/).  
 
-[[Curriculum Vitae (PDF)]](file/CV_of_Shi_Xu_徐识_.pdf)  
+[[Curriculum Vitae (PDF)]](file/Shi_Xu_CV_EN.pdf)  
 
 ---
 <span class='anchor' id='news'></span> 
