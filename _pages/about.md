@@ -61,7 +61,7 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
    Preprint, 2025.  
    [[arXiv]](https://arxiv.org/abs/2510.08089) | [[PDF]](https://arxiv.org/pdf/2510.08089)
 
-4. **Transcendental foliations whose slope is less than two**  
+4. **Double Covers of Foliated Surfaces: Horizontal Branch Resolution and Chern Number Formulas**  
    with Jun Lu, Xin Lv, and Shengli Tan  
    Manuscript.
    
