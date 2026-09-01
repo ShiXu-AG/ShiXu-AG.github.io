@@ -33,13 +33,14 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 
 ---
 <span class='anchor' id='publications'></span> 
+
 ## Publications
 
 ### Journal Articles
 
 1. **Canonical models of adjoint foliated structures on surfaces**  
    with Jun Lu and Xiaohang Wu  
-   *Journal of the London Mathematical Society* (2) **114** (2026), e70622.  
+   *Journal of the London Mathematical Society* (2) **114** (2026), no. 1, e70622.  
    [[DOI]](https://doi.org/10.1112/jlms.70622) | [[arXiv]](https://arxiv.org/abs/2501.00470) | [[PDF]](https://arxiv.org/pdf/2501.00470)
 
 2. **On the singular locus of foliations over $\mathbb{P}^2$**  
@@ -48,17 +49,21 @@ I received my Ph.D. from [East China Normal University (ECNU)](https://math.ecnu
 
 ### Preprints and Manuscripts
 
-1. **Numerical Reduction and Sharp Thresholds for Adjoint Singularities of Foliated Surfaces**  
+1. **Birational automorphism bounds for general-type foliations on surfaces via pluricanonical indices**  
+   Preprint, 2026.  
+   [[arXiv]](https://arxiv.org/abs/2608.29900) | [[PDF]](https://arxiv.org/pdf/2608.29900)
+
+2. **Numerical reduction and sharp thresholds for adjoint singularities of foliated surfaces**  
    Preprint, 2025.  
    [[arXiv]](https://arxiv.org/abs/2512.20744) | [[PDF]](https://arxiv.org/pdf/2512.20744)
 
-2. **Noether-type inequalities for big divisors via control of the negative part**  
+3. **Noether-type inequalities for big divisors via control of the negative part**  
    Preprint, 2025.  
    [[arXiv]](https://arxiv.org/abs/2510.08089) | [[PDF]](https://arxiv.org/pdf/2510.08089)
 
-3. **Transcendental foliations whose slope is less than two**  
+4. **Transcendental foliations whose slope is less than two**  
    with Jun Lu, Xin Lv, and Shengli Tan  
-   Preprint.  
+   Manuscript.
    
 ---
 <span class='anchor' id='contact'></span> 
