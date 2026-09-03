@@ -7,7 +7,9 @@
 
 # Site Settings
 title                    : "Shi Xu"
-description              : " "
+description              : "Shi Xu is a postdoctoral researcher in algebraic geometry at YMSC, Tsinghua University. His research focuses on algebraic surfaces, foliations, and birational geometry."
+url                      : "https://shixu-ag.github.io"
+baseurl                  : ""
 repository               : "ShiXu-AG/ShiXu-AG.github.io"
 google_scholar_stats_use_cdn : true
 
