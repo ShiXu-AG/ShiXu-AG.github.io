@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Home"
-excerpt: "Academic Homepage"
+excerpt: "Shi Xu — Algebraic geometry, algebraic surfaces, foliations, and birational geometry."
 author_profile: true
 redirect_from: 
   - /about/
